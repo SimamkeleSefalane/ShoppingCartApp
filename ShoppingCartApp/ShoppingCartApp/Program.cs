@@ -21,7 +21,7 @@ namespace ShoppingCartApp
                 Console.Write(item.ItemName + "\t\t");
                 Console.WriteLine(item.ItemPrice);
             }
-
+            Console.WriteLine("");
             Console.WriteLine("subtotal: \t" + basket.GetSubTotal());
             Console.WriteLine("withVat: \t" + basket.GetVatTotal());
 
